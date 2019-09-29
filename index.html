@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>Colour Converter</title>
+</head>
+<body>
+	<header class="header">
+		<h1 class="header__title">Colour Converter</h1>
+		<h3 class="header__subtitle">Converts between hex and rgb colour values</h3>
+	</header>
+	<main class="main">
+		<form class="converter" onsubmit="return false">
+			<input class="converter__input hex" type="text" placeholder="Hex">
+			<div class="converter__rgb">
+				<input class="converter__input red" type="text" placeholder="Red">
+				<input class="converter__input green" type="text" placeholder="Green">
+				<input class="converter__input blue" type="text" placeholder="Blue">
+			</div>
+			<div class="converter__display display"></div>
+			<button class="converter__button hex-btn">To RGB</button>
+			<button class="converter__button rgb-btn">To Hex</button>
+		</form>
+	</main>
+	<footer class="footer">
+		<p class="copyright">Ruaidhri MacKenzie - &copy; 2019 - North East Scotland College</p>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>
